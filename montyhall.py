@@ -29,6 +29,7 @@ for i in range(5000):
     if choice == carIdx:
         #no switching
         winSim2 += 1
+        
     else:
         #switch.. so remove user's choice and randomly choose from remaining
         doors.remove(choice)
